@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1
 
-RUN apt-get update && apt-get install make zip -y && \
+RUN apt-get update && apt-get install make zip gpg -y && \
     dotnet tool install dotnet-reportgenerator-globaltool --tool-path /coverage
 
 RUN apt-get update && apt-get --no-install-recommends install -y ca-certificates curl apt-transport-https lsb-release gnupg && \

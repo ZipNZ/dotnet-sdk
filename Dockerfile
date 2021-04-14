@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1
+FROM mcr.microsoft.com/dotnet/sdk:5.0
 
 RUN apt-get update && apt-get install make zip gpg -y && \
     dotnet tool install dotnet-reportgenerator-globaltool --tool-path /coverage

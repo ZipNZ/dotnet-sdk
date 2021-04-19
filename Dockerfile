@@ -1,4 +1,7 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1
+FROM mcr.microsoft.com/dotnet/sdk:5.0
+
+# Copy 3.1 .net runtime
+COPY --from=mcr.microsoft.com/dotnet/core/aspnet:3.1 /usr/share/dotnet /usr/share/dotnet
 
 RUN apt-get update && apt-get install make zip gpg -y && \
     dotnet tool install dotnet-reportgenerator-globaltool --tool-path /coverage

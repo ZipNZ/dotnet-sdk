@@ -1,4 +1,4 @@
-# dotnet SDK 3.1
+# Dotnet SDK
 
 This repository contains the dockerfile to create an image based off of [dotnet sdk](https://hub.docker.com/_/microsoft-dotnet-sdk/), along with some additional tools installed that are useful during deployments.
 

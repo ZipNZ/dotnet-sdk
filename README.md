@@ -11,7 +11,7 @@ Additional tools installed include:
 
 The main use for this image is to ready-bake the installation.
 
-Currently, this image is hosted on [Dockerhub](https://hub.docker.com/repository/docker/njlnick/dotnet-sdk)
+Currently, this image is hosted on [Dockerhub](https://hub.docker.com/repository/docker/zipnz/dotnet-sdk)
 
 ## Prerequisites
 
